@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:700|Noto+Sans+SC&subset=cyrillic');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+}
+.info {
+  position: relative;
+
+  margin: 173px 0 0 576px;
+
+  transform: rotate(10deg);
+}
+h1 {
+  position: absolute;
+
+  margin-top: 100px;
+
+  transform: rotate(30deg);
+
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 42px;
+}
+p {
+  position: absolute;
+
+  width: 310px;
+  margin: 40px -100px -100px -108px;
+
+  transform: rotate(-60deg);
+
+  font-family: 'Noto Sans SC', sans-serif;
+}
+p.adress {
+  top: 218px;
+  left: -28px;
+
+  width: 492px;
+
+  font-size: 32px;
+  font-weight: 700;
+}
+h2 {
+  position: absolute;
+  top: 293px;
+  left: -145px;
+
+  transform: rotate(-60deg);
+
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 50px;
+}
+h3 {
+  position: absolute;
+  top: 154px;
+  left: 221px;
+
+  transform: rotate(30deg);
+
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 27px;
+}
+.footer {
+  top: 274px;
+  left: 103px;
+
+  width: 480px;
+}
+@keyframes spin { 100% {transform: rotate(360deg);} }
+@keyframes doun { 25% {transform: translateY(40px) translateX(10px);}
+                  50% {transform: translateY(60px) translateX(20px);
+                  75% {transform: translateY(70px) translateX(40px);
+                  100% {transform: translateY(100px) translateX(-60px);}}
+@keyframes slise { 100% {transform: translatex(100px);}}
