@@ -69,9 +69,22 @@ h3 {
 
   width: 480px;
 }
-@keyframes spin { 100% {transform: rotate(360deg);} }
-@keyframes doun { 25% {transform: translateY(40px) translateX(10px);}
-                  50% {transform: translateY(60px) translateX(20px);
-                  75% {transform: translateY(70px) translateX(40px);
-                  100% {transform: translateY(100px) translateX(-60px);}}
-@keyframes slise { 100% {transform: translatex(100px);}}
+
+.one {
+  transform: rotate(0);
+  width: 200px;
+  top: 0;
+  left: 111px;
+}
+@keyframes spin {
+  100% {transform: translateY(400px) translateX(30px);} 
+}
+@keyframes doun {
+  25% {transform: translateY(40px) translateX(10px);}
+  50% {transform: translateY(60px) translateX(20px);
+  75% {transform: translateY(70px) translateX(40px);}
+  100% {transform: translateY(100px) translateX(-60px);}
+}
+@keyframes slise {
+  100% {transform: translatex(100px);}
+}

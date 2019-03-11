@@ -1,20 +1,43 @@
 document.addEventListener('DOMContentLoaded', function(){
-  for (let i = 0; i < 20; i++) {
+  for (let i = 0; i < 50; i++) {
     let newDiv = document.createElement('div')
-    document.body.appendChild(newDiv).setAttribute('style', 'z-index: -2; width: ' + Math.floor(Math.random() * 100) + 'px; height: ' + Math.floor(Math.random() * 100) + 'px; background-color: #' + getColor() + '; position: absolute; top:' + Math.floor(Math.random() * 1000) + 'px; left:' + Math.floor(Math.random() * 1000) + 'px; animation: ' + readAnimation() + '; transition: all ' + Math.floor(Math.random() * 100) + 'ms ease; content: "' + generateContent() + '"')
+    document.body.appendChild(newDiv).setAttribute('style', 'z-index: -2;' + generateSize() + '; background-color: #' + getColor() + '; position: absolute; top:' + Math.floor(Math.random() * 1000 - 100) + 'px; left:' + Math.floor(Math.random() * 1400) + 'px; animation: ' + readAnimation() + '; ' + deformateDiv() + '; opacity:' + generateOpacity())
   }
-  document.getElementsByTagName('div').on(mouseover = function() {
-    console.log(this.style.top)
-  })
 })
 
 let a = Math.floor(Math.random() * 3)
 
+function generateOpacity() {
+  let opacity
+  if (a === 0) {
+    opacity = Math.random()
+  } else if (a === 1) {
+    opacity = Math.random()
+  } else if (a === 2) {
+    opacity = Math.random()
+  }
+  return opacity
+}
+
+function generateSize() {
+  let value
+  if (a === 0) {
+    value = Math.floor(Math.random() * 50)
+    value = 'width:' + value + 'px; height:' + value + 'px'
+  } else if (a === 1) {
+    value = Math.floor(Math.random() * 50)
+    value = 'width:' + value + 'px; height:' + Math.floor(Math.random() * 100) + 'px'
+  } else if (a === 2) {
+    value = Math.floor(Math.random() * 100)
+    value = 'width:' + value + 'px; height:' + Math.floor(Math.random() * 100) + 'px'
+  }
+  return value
+}
 function getColor() {
   let color
   if (a === 0) {
     document.bgColor = 'C2EFEB'
-    color = '41337A'
+    color = '6EA4BF'
 
   } else if (a === 1) {
     document.bgColor = '17BEBB'
@@ -28,68 +51,22 @@ function getColor() {
 function readAnimation() {
   let animation
   if (a === 0) {
-    animation = 'doun 10s linear infinite'
+    animation = 'doun ' + Math.floor(Math.random() * 10 + 5) + 's linear infinite'
   } else if (a === 1) {
-    animation = 'slise 10s linear infinite'
+    animation = 'slise ' + Math.floor(Math.random() * 10) + 's linear infinite'
   } else if (a === 2) {
-    animation = 'spin 3s linear infinite'
+    animation = 'spin ' + Math.floor(Math.random() * 5 + 5) +  's linear infinite'
   }
   return animation
 }
-function generateContent() {
-  let content
+function deformateDiv() {
+  let diformate
   if (a === 0) {
-    content = 'Снежинки'
+    diformate = 'border-radius: 100%'
   } else if (a === 1) {
-    content = 'Облака'
+    diformate = 'border-radius: 10px'
   } else if (a === 2) {
-    content = 'Дождинки'
+    diformate = 'border-radius: 0 0 10px 10px'
   }
-  return content
+  return diformate
 }
-
-
-
-// #anim-two
-//   text-align: center
-//   // padding-top: 150px
-//   ul
-//     text-align: center
-//     list-style: none
-//     li
-//       width: 30px
-//       height: 30px
-//       border-radius: 50%
-//       background-color: red
-//       display: inline-block
-//       margin: 0 5px
-//       transform: translateY(-30px)
-//       animation: bounce-balls 1.2s cubic-bezier(0.245, 0.325, 0.510, 1.305) infinite alternate
-//       &:nth-child(1)
-//         background: orange
-//         animation-delay: .6s
-//       &:nth-child(2)
-//         background: coral
-//         animation-delay: .7s
-//       &:nth-child(3)
-//         background: darksalmon
-//         animation-delay: .8s
-//       &:nth-child(4)
-//         background: indianred
-//         animation-delay: .6s
-//       &:nth-child(5)
-//         background: lightcoral
-//         animation-delay: .6s
-//       &:nth-child(6)
-//         background: lightcoral
-//         animation-delay: .7s
-//
-// @keyframes bounce-balls
-//   30%
-//     transform: translateY(-30px)
-//   60%
-//     transform: translateY(205px)
-//   80%
-//     transform: translateY(190px)
-//   100%
-//     transform: translateY(195px)
