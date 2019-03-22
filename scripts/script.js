@@ -21,14 +21,14 @@ function criateBackground() {
     document.bgColor = '17BEBB'
       let i
         if ( Math.floor(Math.random() * 2) === 1) {
-          i = 'images/clouds/cloud_1.png'
+          i = 'materials/images/clouds/cloud_1.png'
         } else {
-          i = 'images/clouds/cloud_2.png'
+          i = 'materials/images/clouds/cloud_2.png'
         }
       background = 'background-image: url(' + i + '); width:' + Math.floor(Math.random() * 500 + 100) + 'px; height:' + Math.floor(Math.random() * 300 + 100) + 'px'
     } else if( a === 2 ) {
-      document.bgColor = 'B0C7BD'
-      background = 'background-image: url(images/rain.png); width:' +  Math.floor(Math.random() * 40) + 'px; height:' + Math.floor(Math.random() * 60) + 'px'
+      document.bgColor = '7D7C7A'
+      background = 'background-image: url(materials/images/rain.png); width:' +  Math.floor(Math.random() * 40) + 'px; height:' + Math.floor(Math.random() * 60) + 'px;'
   }
   return background
 }

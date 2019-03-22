@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Proxsima;
+  font-weight: 100;
+
+  src: url(../materials/fonts/ProximaNovaThin.otf);
+}
+@font-face {
+  font-family: Proxsima;
+  font-weight: 100;
+  font-style: italic;
+
+  src: url(../materials/fonts/ProximaNovaThinItalic.otf);
+}
+
+@font-face {
+  font-family: Proxsima;
+  font-weight: 200;
+
+  src: url(../materials/fonts/ProximaNovaLight.otf);
+}
+@font-face {
+  font-family: Proxsima;
+  font-weight: 200;
+  font-style: italic;
+
+  src: url(../materials/fonts/ProximaNovaLightItalic.otf);
+}
+
+@font-face {
+  font-family: Proxsima;
+  font-weight: normal;
+
+  src: url(../materials/fonts/ProximaNovaRegular.otf);
+}
+
+@font-face {
+  font-family: Proxsima;
+  font-weight: 500;
+
+  src: url(../materials/fonts/ProximaNovaSemibold.otf);
+}
+
+@font-face {
+  font-family: Proxsima;
+  font-weight: 600;
+
+  src: url(../materials/fonts/ProximaNovaBold.otf);
+}

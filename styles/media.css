@@ -1,0 +1,29 @@
+@media (max-width: 1024px) {
+  h1 {
+    top: 225px;
+    left: 76px;
+
+    font-size: 145px;
+  }
+  h2 {
+    left: 700px;
+  }
+  h3 {
+    top: 163px;
+
+    font-size: 72px;
+  }
+  h4 {
+    left: 80px;
+
+    font-size: 57px;
+  }
+  p {
+    left: 660px;
+  }
+  .adress {
+    left: 660px;
+
+    font-size: 27px;
+  }
+}

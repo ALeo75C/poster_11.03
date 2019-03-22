@@ -1,0 +1,87 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+
+  font-family: Proxsima;
+}
+body * {
+  margin: 0;
+  padding: 0;
+
+  /* transition: all 600ms ease; */
+}
+h4 {
+  position: absolute;
+  top: 90px;
+  left: 80px;
+
+  animation: h4Animate 10s linear infinite;
+
+  font-size: 70px;
+}
+h3 {
+  position: absolute;
+  top: 180px;
+  left: 80px;
+
+  animation: h3Animate 10s linear infinite;
+
+  font-size: 80px;
+  font-weight: 250;
+  font-style: italic;
+}
+h1 {
+  position: absolute;
+  top: 240px;
+  left: 80px;
+
+  animation: h1Animate 10s linear infinite;
+
+  font-size: 175px;
+  font-weight: bold;
+}
+p {
+  position: absolute;
+  top: 633px;
+  left: 840px;
+
+  width: 400px;
+
+  animation: pAnimate 10s linear infinite;
+
+  font-size: 15px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 17px;
+}
+h2 {
+  position: absolute;
+  top: 305px;
+  left: 880px;
+
+  width: 800px;
+
+  transform: rotate(-90deg);
+  animation: h2Animate 10s linear infinite;
+
+  font-size: 50px;
+  font-weight: bold;
+}
+.adress {
+  top: 765px;
+  left: 840px;
+
+  animation: adressnimate 10s linear infinite;
+
+  font-size: 28px;
+  font-weight: 600;
+}
+
+div {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
