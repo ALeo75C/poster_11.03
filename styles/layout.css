@@ -15,8 +15,8 @@ body * {
 }
 h4 {
   position: absolute;
-  top: 90px;
-  left: 80px;
+  top: 7vw;
+  left: 6vw;
 
   animation: h4Animate 10s linear infinite;
 
@@ -24,8 +24,8 @@ h4 {
 }
 h3 {
   position: absolute;
-  top: 180px;
-  left: 80px;
+  top: 12vw;
+  left: 6vw;
 
   animation: h3Animate 10s linear infinite;
 
@@ -35,8 +35,8 @@ h3 {
 }
 h1 {
   position: absolute;
-  top: 240px;
-  left: 80px;
+  top: 16vw;
+  left: 6vw;
 
   animation: h1Animate 10s linear infinite;
 
@@ -45,8 +45,8 @@ h1 {
 }
 p {
   position: absolute;
-  top: 633px;
-  left: 840px;
+  top: 44vw;
+  left: 57vw;
 
   width: 400px;
 
@@ -59,10 +59,10 @@ p {
 }
 h2 {
   position: absolute;
-  top: 305px;
-  left: 880px;
+  top: 38vw;
+  left: 77vw;
 
-  width: 800px;
+  width: 425px;
 
   transform: rotate(-90deg);
   animation: h2Animate 10s linear infinite;
@@ -71,8 +71,10 @@ h2 {
   font-weight: bold;
 }
 .adress {
-  top: 765px;
-  left: 840px;
+  top: 53vw;
+  left: 57vw;
+
+  width: 500px;
 
   animation: adressnimate 10s linear infinite;
 

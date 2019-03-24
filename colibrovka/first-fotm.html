@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        overflow: hidden;
+
+        font-family: Proxsima;
+      }
+      body * {
+        margin: 0;
+        padding: 0;
+
+        /* transition: all 600ms ease; */
+      }
+      h4 {
+        position: absolute;
+        top: 7vw;
+        left: 6vw;
+
+        animation: h4Animate 10s linear infinite;
+
+        font-size: 70px;
+      }
+      h3 {
+        position: absolute;
+        top: 12vw;
+        left: 6vw;
+
+        animation: h3Animate 10s linear infinite;
+
+        font-size: 80px;
+        font-weight: 250;
+        font-style: italic;
+      }
+      h1 {
+        top: 16vw;
+        left: 6vw;
+
+        font-size: 175px;
+        font-weight: bold;
+      }
+      p {
+        position: absolute;
+        top: 44vw;
+        left: 57vw;
+        width: 400px;
+        animation: pAnimate 10s linear infinite;
+        font-size: 15px;
+        font-weight: 300;
+        font-style: italic;
+        line-height: 17px;
+      }
+      h2 {
+        top: 38vw;
+        left: 77vw;
+        width: 425px;
+        transform: rotate(-90deg);
+        font-size: 50px;
+        font-weight: bold;
+      }
+      .adress {
+        top: 53vw;
+        left: 57vw;
+        width: 500px;
+        animation: adressnimate 10s linear infinite;
+        font-size: 28px;
+        font-weight: 600;
+      }
+
+      @media (max-width: 1365px) {
+        h1 {
+          top: 19vw;
+          font-size: 150px;
+        }
+        h3 {
+          font-size: 69px;
+          top: 13vw;
+        }
+        h4 {
+          font-size: 59px;
+        }
+        p {
+          top: 46vw;
+        }
+        .adress {
+          top: 57vw;
+        }
+      }
+      @media (max-width: 1025px) {
+        h1 {
+          font-size: 145px;
+        }
+        h3 {
+          font-size: 52px;
+        }
+        h4 {
+          font-size: 48px;
+        }
+        p {
+          top: 55vw;
+          left: 52vw;
+        }
+        h2 {
+          top: 44vw;
+          left: 73vw;
+        }
+        .adress {
+          top: 69vw;
+          left: 51vw;
+        }
+      }
+      @media (max-width: 768px) {
+        h1 {
+          top: 35vw;
+          font-size: 132px;
+        }
+        h2 {
+          top: 90vw;
+          left: 63vw;
+        }
+        h3 {
+          top: 28vw;
+        }
+        h4 {
+          top: 18vw;
+          font-size: 45px;
+        }
+        p {
+          top: 108vw;
+          left: 35vw;
+        }
+        .adress {
+          top: 125vw;
+          left: 35vw;
+          width: 410px;
+        }
+
+      }
+      @media (max-width: 568px) {
+        h1 {
+          top: 19vw;
+          font-size: 65px;
+        }
+        h2 {
+          top: 25.3vw;
+          left: 67vw;
+          width: 262px;
+          font-size: 30px;
+        }
+        h3 {
+          font-size: 37px;
+          top: 13vw;
+        }
+        h4 {
+          top: 5vw;
+          font-size: 26px;
+        }
+        p {
+          top: 38vw;
+          left: 34vw;
+          font-size: 9px;
+          width: 292px;
+          line-height: 11px;
+        }
+        .adress {
+          top: 49vw;
+          left: 34vw;
+          width: 292px;
+          font-size: 20px;
+        }
+      }
+      @media (max-width: 425px) {
+        h4 {
+          left: 9vw;
+          width: 268px;
+          font-size: 17px;
+        }
+        h3 {
+          left: 9vw;
+          top: 16vw;
+          font-size: 30px;
+        }
+        h1 {
+          font-size: 50px;
+          top: 25vw;
+          left: 9vw;
+        }
+        p {
+          top: 134vw;
+          left: 9vw;
+          width: 215px;
+        }
+        h2 {
+          top: 112vw;
+          left: 45vw;
+        }
+        .adress {
+          top: 164vw;
+          left: 9vw;
+          font-size: 16px;
+          width: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="info">
+      <h4>Представление новой коллекции</h4>
+      <h3>Магазин погоды</h3>
+      <h1>СКЛЯНКА</h1>
+      <p>Новая разработка специолистов, окунет вас в те времена, когда вы с нетерпением ждали холодных морозных деньков, когда можно было пропустить школу, жарких летних дней во время летних каникул или де когда вы радовались пролевному дождю и прыгали по лужам. Новая коллекция "Школные времена" ждет вас!</p>
+      <h2>25 марта 2019 года</h2>
+      <p class="adress">250 км от Москвы по трассе М7</p>
+    </section>
+  </body>
+</html>

@@ -8,8 +8,8 @@
 
 @keyframes h1Animate {
   0% {
-    top: 240px;
-    left: 80px;
+    top: 16vw;
+    left: 6vw;
 
     transform: none;
 
@@ -17,8 +17,8 @@
     font-weight: bold;
   }
   20% {
-    top: 240px;
-    left: 80px;
+    top: 16vw;
+    left: 6vw;
 
     transform: none;
 
@@ -27,27 +27,27 @@
   }
 
   25% {
-    top: 285px;
-    left: 750px;
+    top: 18vw;
+    left: 58vw;
 
     transform: rotate(90deg);
 
-    font-size: 140px;
+    font-size: 122px;
     font-weight: bold;
   }
   45% {
-    top: 285px;
-    left: 750px;
+    top: 18vw;
+    left: 58vw;
 
     transform: rotate(90deg);
 
-    font-size: 140px;
+    font-size: 122px;
     font-weight: bold;
   }
 
   50% {
-    top: 560px;
-    left: 166px;
+    top: 36vw;
+    left: 10vw;
 
     transform: none;
 
@@ -55,8 +55,8 @@
     font-weight: 100;
   }
   70% {
-    top: 560px;
-    left: 166px;
+    top: 36vw;
+    left: 10vw;
 
     transform: none;
 
@@ -65,14 +65,14 @@
   }
 
   75% {
-    top: 240px;
+    top: 22vw;
     left: 216px;
 
     font-size: 175px;
     font-weight: bold;
   }
   95% {
-    top: 240px;
+    top: 22vw;
     left: 216px;
 
     font-size: 175px;
@@ -81,8 +81,10 @@
 }
 @keyframes h2Animate {
   0% {
-    top: 305px;
-    left: 880px;
+    top: 35vw;
+    left: 73vw;
+
+    width: 480px;
 
     transform: rotate(-90deg);
 
@@ -90,8 +92,10 @@
     font-weight: bold;
   }
   20% {
-    top: 305px;
-    left: 880px;
+    top: 35vw;
+    left: 73vw;
+
+    width: 480px;
 
     transform: rotate(-90deg);
 
@@ -100,8 +104,10 @@
   }
 
   25% {
-    top: 730px;
-    left: 570px;
+    top: 51vw;
+    left: 40.5vw;
+
+    width: 700px;
 
     transform: none;
 
@@ -109,8 +115,10 @@
     font-weight: 100;
   }
   45% {
-    top: 730px;
-    left: 570px;
+    top: 51vw;
+    left: 40.5vw;
+
+    width: 700px;
 
     transform: none;
 
@@ -119,8 +127,10 @@
   }
 
   50% {
-    top: 520px;
-    left: -285px;
+    top: 29vw;
+    left: -13vw;
+
+    width: auto;
 
     transform: rotate(90deg);
 
@@ -128,8 +138,10 @@
     font-weight: 500;
   }
   70% {
-    top: 520px;
-    left: -285px;
+    top: 29vw;
+    left: -13vw;
+
+    width: auto;
 
     transform: rotate(90deg);
 
@@ -138,28 +150,32 @@
   }
 
   75% {
-    top: 238px;
-    left: -305px;
+    top: 27.6vw;
+    left: -18vw;
+
+    width: auto;
 
     transform: rotate(-90deg);
 
-    font-size: 63px;
+    font-size: 83px;
     font-style: normal;
   }
   95% {
-    top: 238px;
-    left: -305px;
+    top: 27.6vw;
+    left: -18vw;
+
+    width: auto;
 
     transform: rotate(-90deg);
 
-    font-size: 63px;
+    font-size: 83px;
     font-style: normal;
   }
 }
 @keyframes h3Animate {
   0% {
-    top: 180px;
-    left: 80px;
+    top: 12vw;
+    left: 6vw;
 
     transform: none;
 
@@ -168,8 +184,8 @@
     font-style: italic;
   }
   20% {
-    top: 180px;
-    left: 80px;
+    top: 12vw;
+    left: 6vw;
 
     transform: none;
 
@@ -179,33 +195,33 @@
   }
 
   25% {
-    top: 435px;
-    left: 750px;
+    top: 21.9vw;
+    left: 64vw;
 
-    width: 900px;
+    width: 650px;
 
     transform: rotate(90deg);
 
-    font-size: 90px;
+    font-size: 87px;
     font-weight: 100;
     font-style: normal;
   }
   45% {
-    top: 435px;
-    left: 750px;
+    top: 21.9vw;
+    left: 64vw;
 
-    width: 900px;
+    width: 650px;
 
     transform: rotate(90deg);
 
-    font-size: 90px;
+    font-size: 87px;
     font-weight: 100;
     font-style: normal;
   }
 
   50% {
-    top: 500px;
-    left: 170px;
+    top: 31vw;
+    left: 11vw;
 
     transform: none;
 
@@ -214,8 +230,8 @@
     font-style: normal;
   }
   70% {
-    top: 500px;
-    left: 170px;
+    top: 31vw;
+    left: 11vw;
 
     transform: none;
 
@@ -225,7 +241,7 @@
   }
 
   75% {
-    top: 180px;
+    top: 18vw;
     left: 230px;
 
     font-size: 65px;
@@ -233,7 +249,7 @@
     font-style: normal;
   }
   95% {
-    top: 180px;
+    top: 18vw;
     left: 230px;
 
     font-size: 65px;
@@ -243,8 +259,8 @@
 }
 @keyframes h4Animate {
   0% {
-    top: 90px;
-    left: 80px;
+    top: 7vw;
+    left: 6vw;
 
     width: auto;
 
@@ -253,8 +269,8 @@
     font-size: 70px;
   }
   20% {
-    top: 90px;
-    left: 80px;
+    top: 7vw;
+    left: 6vw;
 
     width: auto;
 
@@ -264,55 +280,55 @@
   }
 
   25% {
-    top: 520px;
-    left: 800px;
+    top: 33vw;
+    left: 60vw;
 
-    width: 1000px;
+    width: 900px;
 
     transform: rotate(90deg);
 
-    font-size: 40px;
+    font-size: 41px;
     font-weight: bold;
   }
   45% {
-    top: 520px;
-    left: 800px;
+    top: 33vw;
+    left: 60vw;
 
-    width: 1000px;
+    width: 900px;
 
     transform: rotate(90deg);
 
-    font-size: 40px;
+    font-size: 41px;
     font-weight: bold;
   }
 
   50% {
-    top: 100px;
-    left: 170px;
+    top: 5vw;
+    left: 5vw;
 
     width: auto;
 
     transform: none;
     text-transform: uppercase;
 
-    font-size: 55px;
+    font-size: 64px;
     font-weight: normal;
   }
   70% {
-    top: 100px;
-    left: 170px;
+    top: 5vw;
+    left: 5vw;
 
     width: auto;
 
     transform: none;
     text-transform: uppercase;
 
-    font-size: 55px;
+    font-size: 64px;
     font-weight: normal;
   }
 
   75% {
-    top: 90px;
+    top: 4vw;
     left: 230px;
 
     width: auto;
@@ -323,10 +339,12 @@
     font-weight: bold;
   }
   95% {
-    top: 90px;
+    top: 4vw;
     left: 230px;
 
     width: auto;
+
+    text-transform: none;
 
     font-size: 53px;
     font-weight: bold;
@@ -334,9 +352,8 @@
 }
 @keyframes pAnimate {
   0% {
-    position: absolute;
-    top: 633px;
-    left: 840px;
+    top: 44vw;
+    left: 57vw;
 
     width: 400px;
 
@@ -346,9 +363,8 @@
     line-height: 17px;
   }
   20% {
-    position: absolute;
-    top: 633px;
-    left: 840px;
+    top: 44vw;
+    left: 57vw;
 
     width: 400px;
 
@@ -359,10 +375,10 @@
   }
 
   25% {
-    top: 620px;
-    left: 580px;
+    top: 41vw;
+    left: 50vw;
 
-    width: 400px;
+    width: 328px;
 
     font-size: 13px;
     font-weight: 100;
@@ -370,10 +386,10 @@
     line-height: 15px;
   }
   45% {
-    top: 620px;
-    left: 580px;
+    top: 41vw;
+    left: 50vw;
 
-    width: 400px;
+    width: 328px;
 
     font-size: 13px;
     font-weight: 100;
@@ -382,8 +398,8 @@
   }
 
   50% {
-    top: 230px;
-    left: 800px;
+    top: 14vw;
+    left: 61vw;
 
     width: 390px;
 
@@ -395,8 +411,8 @@
     line-height: 15px;
   }
   70% {
-    top: 230px;
-    left: 800px;
+    top: 14vw;
+    left: 61vw;
 
     width: 390px;
 
@@ -409,10 +425,10 @@
   }
 
   75% {
-    top: 492px;
+    top: 45vw;
     left: 230px;
 
-    width: 325px;
+    width: 385px;
 
     font-size: 18px;
     font-weight: 200;
@@ -420,10 +436,10 @@
     line-height: 21px;
   }
   95% {
-    top: 492px;
+    top: 45vw;
     left: 230px;
 
-    width: 325px;
+    width: 385px;
 
     font-size: 18px;
     font-weight: 200;
@@ -433,46 +449,46 @@
 }
 @keyframes adressnimate {
   0% {
-    top: 765px;
-    left: 840px;
+    top: 53vw;
+    left: 57vw;
 
-    width: 418px;
+    width: 500px;
 
     font-size: 28px;
     font-weight: 600;
   }
   20% {
-    top: 765px;
-    left: 840px;
+    top: 53vw;
+    left: 57vw;
 
-    width: 418px;
+    width: 500px;
 
     font-size: 28px;
     font-weight: 600;
   }
 
   25% {
-    top: 580px;
-    left: 580px;
+    top: 39vw;
+    left: 50vw;
 
-    width: 681px;
+    width: 310px;
 
-    font-size: 27px;
+    font-size: 20px;
     font-weight: bold;
   }
   45% {
-    top: 580px;
-    left: 580px;
+    top: 39vw;
+    left: 50vw;
 
-    width: 681px;
+    width: 310px;
 
-    font-size: 27px;
+    font-size: 20px;
     font-weight: bold;
   }
 
   50% {
-    top: 360px;
-    left: 800px;
+    top: 21vw;
+    left: 61vw;
 
     width: 418px;
 
@@ -483,8 +499,8 @@
     font-style: normal;
   }
   70% {
-    top: 360px;
-    left: 800px;
+    top: 21vw;
+    left: 61vw;
 
     width: 418px;
 
@@ -496,10 +512,10 @@
   }
 
   75% {
-    top: 305px;
-    left: -50px;
+    top: 19.5vw;
+    left: -2vw;
 
-    width: 425px;
+    width: auto;
 
     transform: rotate(-90deg);
 
@@ -507,10 +523,10 @@
     font-style: normal;
   }
   95% {
-    top: 305px;
-    left: -50px;
+    top: 19.5vw;
+    left: -2vw;
 
-    width: 425px;
+    width: auto;
 
     transform: rotate(-90deg);
 
