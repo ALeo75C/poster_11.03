@@ -2955,19 +2955,20 @@
 
 @media (max-width: 425px) {
   h1 {
-    top: 25vw;
+    top: 41vw;
     left: 9vw;
+
+    width: auto;
 
     transform: none;
 
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 42px;
   }
   h2 {
-    top: 112vw;
-    left: 45vw;
+    top: 117vw;
+    left: 46vw;
 
-    width: 262px;
+    width: 287px;
 
     transform: rotate(-90deg);
 
@@ -2975,7 +2976,7 @@
     font-weight: bold;
   }
   h3 {
-    top: 16vw;
+    top: 31vw;
     left: 9vw;
 
     transform: none;
@@ -2985,17 +2986,17 @@
     font-style: italic;
   }
   h4 {
-    top: 5vw;
+    top: 21vw;
     left: 9vw;
 
-    width: 268px;
+    width: auto;
 
     transform: none;
 
     font-size: 17px;
   }
   p {
-    top: 134vw;
+    top: 143vw;
     left: 9vw;
 
     width: 215px;
@@ -3006,37 +3007,39 @@
     line-height: 11px;
   }
   .adress {
-    top: 164vw;
+    top: 134vw;
     left: 9vw;
 
     width: auto;
 
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
   }
   @keyframes h1Animate {
     0% {
-      top: 25vw;
+      top: 41vw;
       left: 9vw;
+
+      width: auto;
 
       transform: none;
 
-      font-size: 50px;
-      font-weight: bold;
+      font-size: 42px;
     }
     20% {
-      top: 25vw;
+      top: 41vw;
       left: 9vw;
+
+      width: auto;
 
       transform: none;
 
-      font-size: 50px;
-      font-weight: bold;
+      font-size: 42px;
     }
 
     25% {
-      top: 47vw;
-      left: -4vw;
+      top: 43vw;
+      left: 5vw;
 
       transform: rotate(90deg);
 
@@ -3044,8 +3047,8 @@
       font-weight: bold;
     }
     45% {
-      top: 47vw;
-      left: -4vw;
+      top: 43vw;
+      left: 5vw;
 
       transform: rotate(90deg);
 
@@ -3054,27 +3057,29 @@
     }
 
     50% {
-      top: 139vw;
-      left: 23vw;
+      position: absolute;
+      top: 130vw;
+      left: 8vw;
 
-      transform: rotate(90deg);
+      transform: none;
 
-      font-size: 48px;
+      font-size: 56px;
       font-weight: bold;
     }
     70% {
-      top: 139vw;
-      left: 23vw;
+      position: absolute;
+      top: 130vw;
+      left: 8vw;
 
-      transform: rotate(90deg);
-
-      font-size: 48px;
+      font-size: 56px;
       font-weight: bold;
     }
 
     75% {
       top: 89vw;
       left: 27vw;
+
+      transform: none;
 
       font-size: 39px;
       font-weight: bold;
@@ -3089,10 +3094,10 @@
   }
   @keyframes h2Animate {
     0% {
-      top: 112vw;
-      left: 45vw;
+      top: 117vw;
+      left: 46vw;
 
-      width: 262px;
+      width: 287px;
 
       transform: rotate(-90deg);
 
@@ -3100,10 +3105,10 @@
       font-weight: bold;
     }
     20% {
-      top: 112vw;
-      left: 45vw;
+      top: 117vw;
+      left: 46vw;
 
-      width: 262px;
+      width: 287px;
 
       transform: rotate(-90deg);
 
@@ -3113,7 +3118,7 @@
 
     25% {
       top: 158vw;
-      left: 9vw;
+      left: 10vw;
 
       width: 286px;
 
@@ -3124,7 +3129,7 @@
     }
     45% {
       top: 158vw;
-      left: 9vw;
+      left: 10vw;
 
       width: 286px;
 
@@ -3135,31 +3140,31 @@
     }
 
     50% {
-      top: 90vw;
-      left: -38vw;
+      top: 80vw;
+      left: -30vw;
 
       width: auto;
 
       transform: rotate(90deg);
 
-      font-size: 42px;
+      font-size: 30px;
       font-weight: 500;
     }
     70% {
-      top: 90vw;
-      left: -38vw;
+      top: 80vw;
+      left: -30vw;
 
       width: auto;
 
       transform: rotate(90deg);
 
-      font-size: 42px;
+      font-size: 30px;
       font-weight: 500;
     }
 
     75% {
       top: 81vw;
-      left: -31vw;
+      left: -35vw;
 
       width: auto;
 
@@ -3170,7 +3175,7 @@
     }
     95% {
       top: 81vw;
-      left: -31vw;
+      left: -35vw;
 
       width: auto;
 
@@ -3182,7 +3187,7 @@
   }
   @keyframes h3Animate {
     0% {
-      top: 16vw;
+      top: 31vw;
       left: 9vw;
 
       transform: none;
@@ -3192,7 +3197,7 @@
       font-style: italic;
     }
     20% {
-      top: 16vw;
+      top: 31vw;
       left: 9vw;
 
       transform: none;
@@ -3203,35 +3208,35 @@
     }
 
     25% {
-      top: 74vw;
-      left: -7vw;
+      top: 54vw;
+      left: 15vw;
 
-      width: 500px;
+      width: 375px;
 
       transform: rotate(90deg);
 
-      font-size: 50px;
+      font-size: 48px;
       font-weight: 100;
       font-style: normal;
     }
     45% {
-      top: 74vw;
-      left: -7vw;
+      top: 54vw;
+      left: 15vw;
 
-      width: 500px;
+      width: 375px;
 
       transform: rotate(90deg);
 
-      font-size: 50px;
+      font-size: 48px;
       font-weight: 100;
       font-style: normal;
     }
 
     50% {
-      top: 130vw;
-      left: 23vw;
+      top: 122vw;
+      left: 37vw;
 
-      width: 225px;
+      width: auto;
 
       transform: none;
 
@@ -3240,10 +3245,10 @@
       font-style: normal;
     }
     70% {
-      top: 130vw;
-      left: 23vw;
+      top: 122vw;
+      left: 37vw;
 
-      width: 225px;
+      width: auto;
 
       transform: none;
 
@@ -3271,20 +3276,20 @@
   }
   @keyframes h4Animate {
     0% {
-      top: 5vw;
+      top: 21vw;
       left: 9vw;
 
-      width: 268px;
+      width: auto;
 
       transform: none;
 
       font-size: 17px;
     }
     20% {
-      top: 5vw;
+      top: 21vw;
       left: 9vw;
 
-      width: 268px;
+      width: auto;
 
       transform: none;
 
@@ -3292,30 +3297,30 @@
     }
 
     25% {
-      top: 89vw;
-      left: -1vw;
+      top: 95vw;
+      left: -3vw;
 
-      width: 562px;
+      width: 600px;
 
       transform: rotate(90deg);
 
-      font-size: 31px;
+      font-size: 24px;
       font-weight: bold;
     }
     45% {
-      top: 89vw;
-      left: -1vw;
+      top: 95vw;
+      left: -3vw;
 
-      width: 562px;
+      width: 600px;
 
       transform: rotate(90deg);
 
-      font-size: 31px;
+      font-size: 24px;
       font-weight: bold;
     }
 
     50% {
-      top: 20vw;
+      top: 18vw;
       left: 9vw;
 
       width: auto;
@@ -3323,11 +3328,11 @@
       transform: none;
       text-transform: uppercase;
 
-      font-size: 27px;
+      font-size: 26px;
       font-weight: normal;
     }
     70% {
-      top: 20vw;
+      top: 18vw;
       left: 9vw;
 
       width: auto;
@@ -3335,36 +3340,36 @@
       transform: none;
       text-transform: uppercase;
 
-      font-size: 27px;
+      font-size: 26px;
       font-weight: normal;
     }
 
     75% {
-      top: 25vw;
+      top: 24vw;
       left: 27vw;
 
       width: 204px;
 
       text-transform: none;
 
-      font-size: 26px;
+      font-size: 23px;
       font-weight: bold;
     }
     95% {
-      top: 25vw;
+      top: 24vw;
       left: 27vw;
 
       width: 204px;
 
       text-transform: none;
 
-      font-size: 26px;
+      font-size: 23px;
       font-weight: bold;
     }
   }
   @keyframes pAnimate {
     0% {
-      top: 134vw;
+      top: 143vw;
       left: 9vw;
 
       width: 215px;
@@ -3375,7 +3380,7 @@
       line-height: 11px;
     }
     20% {
-      top: 134vw;
+      top: 143vw;
       left: 9vw;
 
       width: 215px;
@@ -3411,26 +3416,26 @@
 
     50% {
       top: 45vw;
-      left: 46vw;
+      left: 43vw;
 
       width: 147px;
 
       transform: none;
 
-      font-size: 8px;
+      font-size: 7px;
       font-weight: 100;
       font-style: normal;
       line-height: 10px;
     }
     70% {
       top: 45vw;
-      left: 46vw;
+      left: 43vw;
 
       width: 147px;
 
       transform: none;
 
-      font-size: 8px;
+      font-size: 7px;
       font-weight: 100;
       font-style: normal;
       line-height: 10px;
@@ -3461,21 +3466,21 @@
   }
   @keyframes adressnimate {
     0% {
-      top: 164vw;
+      top: 134vw;
       left: 9vw;
 
       width: auto;
 
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 600;
     }
     20% {
-      top: 164vw;
+      top: 134vw;
       left: 9vw;
 
       width: auto;
 
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 600;
     }
 
@@ -3500,7 +3505,7 @@
 
     50% {
       top: 73vw;
-      left: 46vw;
+      left: 43vw;
 
       width: auto;
 
@@ -3512,7 +3517,7 @@
     }
     70% {
       top: 73vw;
-      left: 46vw;
+      left: 43vw;
 
       width: auto;
 
@@ -3524,8 +3529,8 @@
     }
 
     75% {
-      top: 70vw;
-      left: -6vw;
+      top: 68vw;
+      left: -9vw;
 
       width: auto;
 
@@ -3535,8 +3540,8 @@
       font-style: normal;
     }
     95% {
-      top: 70vw;
-      left: -6vw;
+      top: 68vw;
+      left: -9vw;
 
       width: auto;
 

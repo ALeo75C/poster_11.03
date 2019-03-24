@@ -1,0 +1,493 @@
+@import "fonts.css";
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+
+  font-family: Proxsima;
+}
+body * {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  position: absolute;
+  top: 89vw;
+  left: 27vw;
+
+  transform: none;
+
+  font-size: 39px;
+  font-weight: bold;
+}
+h2 {
+  position: absolute;
+  top: 81vw;
+  left: -31vw;
+
+  width: auto;
+
+  transform: rotate(-90deg);
+
+  font-size: 33px;
+  font-style: normal;
+}
+h3 {
+  position: absolute;
+  top: 82vw;
+  left: 27vw;
+
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+}
+h4 {
+  position: absolute;
+  top: 25vw;
+  left: 27vw;
+
+  width: 204px;
+
+  text-transform: none;
+
+  font-size: 26px;
+  font-weight: bold;
+}
+p {
+  position: absolute;
+  top: 113vw;
+  left: 27vw;
+
+  width: 196px;
+
+  font-size: 8px;
+  font-weight: 200;
+  font-style: normal;
+  line-height: 10px;
+
+}
+.adress {
+  position: absolute;
+  top: 70vw;
+  left: -6vw;
+
+  width: auto;
+
+  transform: rotate(-90deg);
+
+  font-size: 13px;
+  font-style: normal;
+}
+/* @keyframes h1Animate {
+
+  25% {
+    top: 47vw;
+    left: -4vw;
+
+    transform: rotate(90deg);
+
+    font-size: 69px;
+    font-weight: bold;
+  }
+  45% {
+    top: 47vw;
+    left: -4vw;
+
+    transform: rotate(90deg);
+
+    font-size: 69px;
+    font-weight: bold;
+  }
+
+  50% {
+    top: 139vw;
+    left: 23vw;
+
+    transform: rotate(90deg);
+
+    font-size: 48px;
+    font-weight: bold;
+  }
+  70% {
+    top: 139vw;
+    left: 23vw;
+
+    transform: rotate(90deg);
+
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  75% {
+    top: 89vw;
+    left: 27vw;
+
+    transform: none;
+
+    font-size: 39px;
+    font-weight: bold;
+  }
+  95% {
+    top: 89vw;
+    left: 27vw;
+
+    font-size: 39px;
+    font-weight: bold;
+  }
+}
+@keyframes h2Animate {
+  25% {
+    top: 158vw;
+    left: 9vw;
+
+    width: 286px;
+
+    transform: none;
+
+    font-size: 32px;
+    font-weight: 100;
+  }
+  45% {
+    top: 158vw;
+    left: 9vw;
+
+    width: 286px;
+
+    transform: none;
+
+    font-size: 32px;
+    font-weight: 100;
+  }
+
+  50% {
+    top: 90vw;
+    left: -38vw;
+
+    width: auto;
+
+    transform: rotate(90deg);
+
+    font-size: 42px;
+    font-weight: 500;
+  }
+  70% {
+    top: 90vw;
+    left: -38vw;
+
+    width: auto;
+
+    transform: rotate(90deg);
+
+    font-size: 42px;
+    font-weight: 500;
+  }
+
+  75% {
+    top: 81vw;
+    left: -31vw;
+
+    width: auto;
+
+    transform: rotate(-90deg);
+
+    font-size: 33px;
+    font-style: normal;
+  }
+  95% {
+    top: 81vw;
+    left: -31vw;
+
+    width: auto;
+
+    transform: rotate(-90deg);
+
+    font-size: 33px;
+    font-style: normal;
+  }
+}
+@keyframes h3Animate {
+
+  25% {
+    top: 74vw;
+    left: -7vw;
+
+    width: 500px;
+
+    transform: rotate(90deg);
+
+    font-size: 50px;
+    font-weight: 100;
+    font-style: normal;
+  }
+  45% {
+    top: 74vw;
+    left: -7vw;
+
+    width: 500px;
+
+    transform: rotate(90deg);
+
+    font-size: 50px;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  50% {
+    top: 130vw;
+    left: 23vw;
+
+    width: 225px;
+
+    transform: none;
+
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+  }
+  70% {
+    top: 130vw;
+    left: 23vw;
+
+    width: 225px;
+
+    transform: none;
+
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  75% {
+    top: 82vw;
+    left: 27vw;
+
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+  }
+  95% {
+    top: 82vw;
+    left: 27vw;
+
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+  }
+}
+@keyframes h4Animate {
+
+  25% {
+    top: 89vw;
+    left: -1vw;
+
+    width: 562px;
+
+    transform: rotate(90deg);
+
+    font-size: 31px;
+    font-weight: bold;
+  }
+  45% {
+    top: 89vw;
+    left: -1vw;
+
+    width: 562px;
+
+    transform: rotate(90deg);
+
+    font-size: 31px;
+    font-weight: bold;
+  }
+
+  50% {
+    top: 20vw;
+    left: 9vw;
+
+    width: auto;
+
+    transform: none;
+    text-transform: uppercase;
+
+    font-size: 27px;
+    font-weight: normal;
+  }
+  70% {
+    top: 20vw;
+    left: 9vw;
+
+    width: auto;
+
+    transform: none;
+    text-transform: uppercase;
+
+    font-size: 27px;
+    font-weight: normal;
+  }
+
+  75% {
+    top: 25vw;
+    left: 27vw;
+
+    width: 204px;
+
+    text-transform: none;
+
+    font-size: 26px;
+    font-weight: bold;
+  }
+  95% {
+    top: 25vw;
+    left: 27vw;
+
+    width: 204px;
+
+    text-transform: none;
+
+    font-size: 26px;
+    font-weight: bold;
+  }
+}
+@keyframes pAnimate {
+  25% {
+    top: 126vw;
+    left: 10vw;
+
+    width: 225px;
+
+    font-size: 10px;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 12px;
+  }
+  45% {
+    top: 126vw;
+    left: 10vw;
+
+    width: 225px;
+
+    font-size: 10px;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 12px;
+  }
+
+  50% {
+    top: 45vw;
+    left: 46vw;
+
+    width: 147px;
+
+    transform: none;
+
+    font-size: 8px;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 10px;
+  }
+  70% {
+    top: 45vw;
+    left: 46vw;
+
+    width: 147px;
+
+    transform: none;
+
+    font-size: 8px;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 10px;
+  }
+
+  75% {
+    top: 113vw;
+    left: 27vw;
+
+    width: 196px;
+
+    font-size: 8px;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 10px;
+  }
+  95% {
+    top: 113vw;
+    left: 27vw;
+
+    width: 196px;
+
+    font-size: 8px;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 10px;
+  }
+}
+@keyframes adressnimate {
+  25% {
+    top: 119vw;
+    left: 10vw;
+
+    width: auto;
+
+    font-size: 14px;
+    font-weight: bold;
+  }
+  45% {
+    top: 119vw;
+    left: 10vw;
+
+    width: auto;
+
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  50% {
+    top: 73vw;
+    left: 46vw;
+
+    width: auto;
+
+    transform: none;
+
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+  }
+  70% {
+    top: 73vw;
+    left: 46vw;
+
+    width: auto;
+
+    transform: none;
+
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  75% {
+    top: 70vw;
+    left: -6vw;
+
+    width: auto;
+
+    transform: rotate(-90deg);
+
+    font-size: 13px;
+    font-style: normal;
+  }
+  95% {
+    top: 70vw;
+    left: -6vw;
+
+    width: auto;
+
+    transform: rotate(-90deg);
+
+    font-size: 13px;
+    font-style: normal;
+  }
+} */
