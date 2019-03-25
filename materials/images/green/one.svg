@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    id="svg2834"
+    sodipodi:docname="autum leaf.svg"
+    viewBox="0 0 485.43 798.36"
+    version="1.1"
+    inkscape:version="0.47 r22583"
+  >
+  <defs
+      id="defs2836"
+    >
+    <linearGradient
+        id="linearGradient3038"
+        y2="924.66"
+        gradientUnits="userSpaceOnUse"
+        y1="608.91"
+        gradientTransform="matrix(2.5175 .56180 -.56180 2.5175 -283.67 -1864)"
+        x2="468.71"
+        x1="525.28"
+        inkscape:collect="always"
+      >
+      <stop
+          id="stop6188"
+          style="stop-color:#fb8a00"
+          offset="0"
+      />
+      <stop
+          id="stop6190"
+          style="stop-color:#fdca01"
+          offset="1"
+      />
+    </linearGradient
+    >
+  </defs
+  >
+  <sodipodi:namedview
+      id="base"
+      bordercolor="#666666"
+      inkscape:pageshadow="2"
+      inkscape:window-y="214"
+      pagecolor="#ffffff"
+      inkscape:window-height="776"
+      inkscape:window-maximized="0"
+      inkscape:zoom="0.35"
+      inkscape:window-x="158"
+      showgrid="false"
+      borderopacity="1.0"
+      inkscape:current-layer="layer1"
+      inkscape:cx="69.399871"
+      inkscape:cy="165.50342"
+      inkscape:window-width="823"
+      inkscape:pageopacity="0.0"
+      inkscape:document-units="px"
+  />
+  <!-- <g
+      id="layer1"
+      inkscape:label="Layer 1"
+      inkscape:groupmode="layer"
+      transform="translate(-305.6 77.64)"
+    >
+    <path
+        id="path6184"
+        style="fill:url(#linearGradient3038)"
+        d="m348.12 720.72 6.8219-30.57 1.2189-22.381s-3.589-9.2959-1.6865-13.591c1.9022-4.2949 4.206-10.388 4.206-10.388l-3.9903-7.4977 1.5087-10.99-5.5879-8.7981-0.28952-11.391-7.2895-5.4022 2.4077-10.789s-10.789-2.4077-6.1896-6.1007c4.5995-3.693-1.3894-10.693-1.3894-10.693l-4.384-14.193s-3.0985 1.1963-6.0931-2.3036c-2.9943-3.4999-5.5876-8.798-3.8861-12.194 1.7018-3.3958 1.2116-13.888 1.2116-13.888l-6.0856-10.797s-8.4933-0.007-7.9881-6.502c0.50552-6.4944 4.1096-14.185 4.1096-14.185l-1.1888-11.592-5.885-11.696s-2.0953-3.2993 0.5055-6.4944c2.6008-3.1952-0.0889-12.29-0.0889-12.29l-2.4893-9.9944 7.8025-9.5854-3.7896-8.3968 9.4966-4.488-4.0867-11.295 6.3013-7.0888-4.7926-3.9012 4.206-10.388 3.3067-10.589 8.2038-11.384-4.6886-8.5974 4.7037-8.3892 0.11182-13.189 10.5-8.9835-7.3861-9.1994 18.993-8.976 20.398-15.27 6.4053-11.785 26.989-10.967 18.889-4.2798 18.584 1.3155 23.578 4.3176 17.276 11.406 15.486 2.5119 18.279 6.9109 14.972 17.5 27.263 17.411s14.378 11.704 16.273 15.902c1.895 4.1984 10.581 11.8 13.873 18.198 3.2916 6.3979 7.2817 13.896 7.2817 13.896l8.9913 2.0065s13.806-19.572 15.211-25.866c1.4045-6.2938 15.033-50.447 15.033-50.447l13.636-52.646 13.339-55.544 9.0441-57.447 2.862-72.041 6.3468-58.049 6.6363-46.657 0.33525-39.568 23.578 4.3176-12.537 51.948-13.86 79.025-9.4682 84.725-7.5582 71.936-21.654 80.117-13.331 47.051-11.117 28.667-12.105 16.176 30.859 18.213 33.862 13.22 29.566 11.317 29.254 25.406 13.68 10.604 16.57 18.8-1.6127 15.686s8.478 16.994 11.673 19.595c3.1952 2.6008 13.769 22.894 13.769 22.894l-6.911 18.279-7.5052 12.483-7.1039 10.685-0.91431 16.786-12.29 0.0889-7.7136 21.876-8.2924-0.90664-14.297 9.08-4.206 10.388-11.094 3.1876-6.9108 18.279-14.185-4.1094-8.9021 10.284-7.4901-4.5031-6.8066 13.583-9.489-4.0053-13.703 14.876-14.185-4.1094-14.899 11.777-8.8871-6.7026-8.5973 4.6886-14.891 3.2842-18.985 0.48267s-12.097 7.6832-13.799 11.079c-1.7018 3.3957-13.687-2.1106-13.687-2.1106l-14.891 3.284-11.689-2.6083-13.494 5.4837-12.09-0.8101-12.989-1.0108-19.981-3.5152-19.186 1.382-18.488 2.4814-13.888-1.2114-22.485 3.477-27.984 6.9695z"
+    />
+  </g
+  > -->
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >Autumn leaf yellow</dc:title
+        >
+        <dc:date
+          >2010-08-04T13:48:18</dc:date
+        >
+        <dc:description
+          >leaf yellow</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/77491/autumn-leaf-yellow-by-shokunin</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >shokunin</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >autumn</rdf:li
+            >
+            <rdf:li
+              >fall2010</rdf:li
+            >
+            <rdf:li
+              >leaf</rdf:li
+            >
+            <rdf:li
+              >nature</rdf:li
+            >
+            <rdf:li
+              >tree</rdf:li
+            >
+            <rdf:li
+              >yellow</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>
