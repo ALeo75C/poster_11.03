@@ -27,7 +27,8 @@ function criateBackground() {
         }
       background = 'background-image: url(' + i + '); width:' + Math.floor(Math.random() * 500 + 100) + 'px; height:' + Math.floor(Math.random() * 300 + 100) + 'px'
     } else if( a === 2 ) {
-      document.bgColor = '7D7C7A'
+      document.bgColor = '5B5B5B'
+      document.getElementById('info').style.color = 'rgb(238, 240, 242)'
       background = 'background-image: url(materials/images/rain.png); width:' +  Math.floor(Math.random() * 40) + 'px; height:' + Math.floor(Math.random() * 60) + 'px;'
   }
   return background
